@@ -1,0 +1,473 @@
+*{
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin:0px;
+    max-width: 1400px;
+    background-color: #F5F5F5;
+}
+
+.dashboard{
+    padding-left: 0px;
+    margin:0px;
+    display: flex;
+}
+
+/*======================================
+    Title_and_search Section
+======================================*/
+
+.dashboard .Title_and_search{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    margin-top: 0;
+    margin: auto;
+    padding: 0px 70px;
+    padding-left: 20%;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    width: 100%;
+    box-shadow: 1px 3px 2px rgba(0,0,0 ,0.4);
+}
+
+.dashboard .Title_and_search div{
+    display: flex;
+    justify-content: space-between;
+    width: 46vh;
+    padding-top: 10px;
+}
+
+.dashboard .Title_and_search div .search_icon form span img{
+    position: absolute;
+    right: 4px;
+    top: 0px;
+}
+
+.dashboard .Title_and_search div .search_icon form span input{
+    height: 30px;
+    width: 30vh;
+    padding: 0 30px 0 20px;
+    border-radius: 15px;
+    border: solid 1px #F5F5F5;
+}
+
+.dashboard .Title_and_search div .search_icon form span{
+    position: relative;
+}
+
+.dashboard .Title_and_search div .bell_profile img{
+    width: 25px;
+    height: 25px;
+}
+
+.dashboard .Title_and_search div .bell_profile{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+/*************************************
+Side_navigation Section
+*************************************/
+
+.dashboard .Side_navigation{
+    position: relative;
+    width: 17%;
+    height:auto;
+    background-color: #ffff;
+    margin-top: 0px;
+    padding: 20px 0px;
+    box-shadow: 1px 3px 2px rgba(0,0,0 ,0.4);
+}
+.dashboard .Side_navigation .instinctHublogo{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.dashboard .Side_navigation ul{
+    padding: 0px;
+}
+
+.dashboard .Side_navigation .buttons li  img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 20%;
+    bottom: 10px;
+}
+
+.dashboard .Side_navigation .buttons li {
+    position: relative;
+    font-size: 15px;
+    background-color: #262626;
+    color:#ffff;
+    margin:7px 0;
+    padding: 15px;
+    padding-left: 40%;
+    height: 50px;
+    width: auto;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+.dashboard .Side_navigation div{
+    width: 80%;
+    margin: auto;
+    padding: 60px 20px 0px 20px;
+    text-align: center;
+    justify-items: center;
+    background-color: #F5F5F5;
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 2px 1px rgba(0,0,0 ,0.4);
+}
+
+.dashboard .Side_navigation div h3{
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.dashboard .Side_navigation div img{
+    position: absolute;
+    width: 80%;
+    top: -30px;
+    right: 12%;
+}
+
+.dashboard .Side_navigation ul li .category{
+    height: 100%;
+    width: 15px;
+    border-radius: 0 7px 7px 0;
+    background-color:#A25075;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+}
+
+.dashboard .Side_navigation div button{
+    background-color: #00838F;
+    width: 100%;
+    height: 35px;
+    color: #ffff;
+    border-radius: 10px;
+    border: solid 1px #F5F5F5;
+    margin-bottom: 10px;
+}
+
+
+
+/*=======================================
+    Main Section
+=======================================*/
+
+.dashboard .main{
+    width: 81.5%;
+    margin: 50px 30px 30px 30px;
+
+}
+
+/*=======================================
+    Chart Section
+=======================================*/
+
+.main .chart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.main .chart .chartbox{
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    padding: 2%;
+    padding-right: 15%;
+    background-color: #ffff;
+    box-shadow: 2px 1px 3px 2px rgba(0,0,0 ,0.4);
+}
+
+.main .chart .chartbox div:nth-child(1){
+    height: auto;
+}
+
+.main .chart .chartbox .centre{
+    position:relative;
+}
+
+.main .chart .chartbox .activities{
+    line-height: 15px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.main .chart .chartbox .centre .percentage{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 25px;
+}
+
+/*======================================
+        Table Section
+    ======================================*/
+
+table{
+    width: 100%;
+    border-radius:30px;
+    background-color: #ffff;
+    border-collapse: collapse;
+    box-shadow: 1px 3px 2px rgba(0,0,0 ,0.4);
+}
+
+table thead tr{
+    background-color: #242323;
+    border-collapse: collapse;
+}
+
+table thead{
+    text-align: left;
+} 
+
+th{
+    color: #ffff;
+}
+
+th, td{
+    padding: 10px;
+}
+
+/*======================================
+        Learn_more Section
+    ======================================*/
+
+
+.Learn_more{
+    position: relative;
+    background-color: #242323;
+    width:100%;
+    margin:auto;
+    border-radius: 20px 20px 10px 10px;
+    margin-top: 30px;
+}
+
+.Learn_more div{
+    padding: 20px 0px;
+    padding-top: 10px;
+    color: #ffff;
+    margin-left: 50px;
+}
+
+.Learn_more div button{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    color: #A25075;
+    background-color: #F2F2F2;
+    border: solid 1px #F2F2F2;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.Learn_more img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 250px;
+    width: fit-content;
+}
+
+.Learn_more div h1{
+    font-size: 30px;
+}
+
+
+/*======================================
+Media Query 768px
+======================================*/
+@media only screen and (max-width: 768px){
+
+
+
+    /*======================================
+            Title_and_search Section
+    ======================================*/
+
+    .dashboard .Title_and_search{
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffff;
+        margin-top: 0;
+        padding: 0px;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        position: absolute;
+        left: 20%;
+        top: 0px;
+        width: 80%;
+        box-shadow: 1px 3px 2px rgba(0,0,0 ,0.4);
+    }
+
+    .dashboard .Title_and_search div{
+        display: inline;
+        width: 46vh;
+        padding-top: 20px;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+
+    .dashboard .Title_and_search div .bell_profile{
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        position: absolute;
+        top: 33.33%;
+        right: 0px;
+    }
+
+    .dashboard .Title_and_search div .search_icon form span input{
+        height: 30px;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .dashboard .Title_and_search h2{
+        position: absolute;
+        top: 35px;
+    }
+
+    .dashboard .Title_and_search div .search_icon form span{
+        position: relative;
+        bottom: 5px;
+        left: 0px;
+    }
+    
+
+    /*======================================
+            Side_navigation Section
+    ======================================*/
+
+    .dashboard .Side_navigation .instinctHublogo{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .dashboard .Side_navigation{
+        position: fixed;
+        width: 28%;
+        height: 100%;
+        background-color: #ffff;
+        margin-top: 0px;
+        padding: 20px 0px;
+        margin-right: 0px;
+        box-shadow: 1px 3px 2px rgba(0,0,0 ,0.4);
+    }
+
+    .dashboard .Side_navigation div{
+        width: 80%;
+        margin: auto;
+        padding: 60px 20px 0px 20px;
+        text-align: center;
+        justify-items: center;
+        background-color: #F5F5F5;
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 2px 1px rgba(0,0,0 ,0.4);
+    }
+
+    /*======================================
+        Main Section
+======================================*/
+
+    .dashboard .main{
+        width: 80%;
+        margin: 30px 20px;
+        margin-top: 130px;
+        margin-left: 30%;
+    }
+
+
+
+
+    /*======================================
+            Chart Section
+======================================*/
+    .main .chart{
+        display: inline;
+    }
+    
+    .main .chart .chartbox{
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        padding: 5%;
+        padding-right: 40%;
+        margin-bottom: 20px;
+        background-color: #ffff;
+
+    }
+
+    .main .chart .chartbox div:nth-child(1){
+        height: auto;
+    }
+
+    .main .chart .chartbox .centre .percentage{
+        position: absolute;
+        top: 33.3%;
+        left: 40%;
+        font-size: 35px;
+    }
+
+    .main .chart .chartbox .activities{
+        line-height: 15px;
+        position: absolute;
+        font-size: 25px;
+        top: 35%;
+        left: 62%;
+    }
+
+    /*======================================
+            Learn_more Section
+    ======================================*/
+
+    .Learn_more img{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        height: 70%;
+        width: fit-content;
+    }
+
+    .Learn_more div p{
+        width: 45%;
+    }
+
+    .Learn_more div{
+        padding: 20px 0px;
+        padding-top: 10px;
+        color: #ffff;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
